@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".Main" >
+
+    <Button
+        android:id="@+id/explore"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_weight="25"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="Explore recipies"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/spot"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_weight="25"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="Spot a Dish"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/fav"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_weight="25"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="Favorites"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_weight="25"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="More"
+        android:textSize="25dp" />
+
+</LinearLayout>

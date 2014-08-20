@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/BlueViolet"
+        android:gravity="center_vertical"
+        android:text="Share something you found delicious"
+        android:textColor="@color/Yellow"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/take"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/take" >
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+    <Button
+        android:id="@+id/gall"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/gall" >
+    </Button>
+
+</LinearLayout>

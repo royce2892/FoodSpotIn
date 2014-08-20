@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageButton
+        android:id="@+id/ffood"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:src="@android:drawable/btn_star" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fdish"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:text="Dish"
+            android:textColor="@color/Blue"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/flove"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:gravity="right"
+            android:text="x people loved this"
+            android:textColor="@color/Blue"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fhotel"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:text="Hotel"
+            android:textColor="@color/Chocolate"
+            android:textSize="25dp"
+            android:layout_marginLeft="15dp"
+            
+             />
+
+        <Button
+            android:id="@+id/feed"
+            android:layout_width="150dp"
+            android:layout_height="fill_parent"
+            android:background="@color/BlueViolet"
+            android:text="Feedback"
+            android:textColor="@color/Yellow" >
+        </Button>
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

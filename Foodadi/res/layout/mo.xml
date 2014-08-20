@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <Button
+        android:id="@+id/us"
+        android:layout_width="fill_parent"
+        android:layout_height="13dp"
+        android:layout_weight="13"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="About Us"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/app"
+        android:layout_width="fill_parent"
+        android:layout_height="13dp"
+        android:layout_weight="13"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="About App"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="fill_parent"
+        android:layout_height="13dp"
+        android:layout_weight="13"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="Facebook"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/tw"
+        android:layout_width="fill_parent"
+        android:layout_height="13dp"
+        android:layout_weight="13"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="Twitter"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="fill_parent"
+        android:layout_height="13dp"
+        android:layout_weight="13"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="Feedback"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/er"
+        android:layout_width="fill_parent"
+        android:layout_height="13dp"
+        android:layout_weight="13"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="Report an error"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/rec"
+        android:layout_width="fill_parent"
+        android:layout_height="13dp"
+        android:layout_weight="13"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="Recommend"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <Button
+        android:id="@+id/rate"
+        android:layout_width="fill_parent"
+        android:layout_height="13dp"
+        android:layout_weight="13"
+        android:background="@color/White"
+        android:gravity="center_vertical"
+        android:text="Rate this app"
+        android:textSize="25dp" />
+
+    
+
+</LinearLayout>
